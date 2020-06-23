@@ -8,9 +8,7 @@ const productsApi = () => {
   return axios
     .get(API_URL)
     .then(function(response) {
-      console.log(response.data);
       const metadata = response.data.metadata;
-      console.log(metadata);
       const products = descendingOrder(response.data.results);
       return { metadata, products };
     })
