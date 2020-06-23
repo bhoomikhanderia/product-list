@@ -1,5 +1,6 @@
 import React from "react";
 import { convertToDollars } from "../../utils";
+// import "../../styles/product.scss";
 
 const Product = props => {
   const {
@@ -32,7 +33,7 @@ const Product = props => {
           {retailPrice && retailPrice > 0 ? (
             <div className="retail-price">${convertToDollars(retailPrice)}</div>
           ) : (
-            " "
+            <div className="no-price"></div>
           )}
 
           {salePrice && (

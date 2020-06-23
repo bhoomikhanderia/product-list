@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./styles/App.scss";
+import "./styles/product.scss";
 import Header from "./components/header";
 import productsApi from "./api/productsApi";
 import ProductlistHeading from "./components/productlistHeading/productlistHeading";
@@ -40,7 +41,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="container">
-          <div className="inner-content">
+          <div className="inner-content meta-header">
             <div className="metadata">
               <ProductlistHeading metadata={metadata} />
             </div>
