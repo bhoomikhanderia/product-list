@@ -44,4 +44,4 @@ Visit http://localhost:3000/ to view output
 
 ---
 
-For quick setup I have used, Framework. Since this application is small, I have used component based approach to keep it simple.
+For quick setup I have used, Create Reate App Framework. Since this application is small, I have used component based approach to keep it simple.
