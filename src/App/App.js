@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./styles/App.scss";
-import "./styles/product.scss";
-import Header from "./components/header";
-import productsApi from "./api/productsApi";
-import ProductlistHeading from "./components/productlistHeading/productlistHeading";
-import ProductSorting from "./components/productSorting/productSorting";
-import { ascendingOrder, descendingOrder } from "./utils";
-import Product from "./components/product/product";
+import "../styles/App.scss";
+import "../styles/product.scss";
+import Header from "../components/header";
+import productsApi from "../api/productsApi";
+import ProductlistHeading from "../components/productlistHeading/productlistHeading";
+import ProductSorting from "../components/productSorting/productSorting";
+import { ascendingOrder, descendingOrder } from "../utils";
+import Product from "../components/product/product";
 
 class App extends Component {
   constructor(props) {
