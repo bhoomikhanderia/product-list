@@ -80,10 +80,13 @@ body {
           font-size: 25px;
         }
       }
-      .prosorting select {
-        padding: 5px;
-        font-size: 15px;
-        color: #777;
+      .prosorting {
+        margin-top: 5px;
+        select {
+          padding: 5px;
+          font-size: 15px;
+          color: #777;
+        }
       }
     }
   }
